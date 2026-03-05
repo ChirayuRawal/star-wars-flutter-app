@@ -72,11 +72,15 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(title: const Text("Star Wars Characters",
         style: TextStyle(
-          fontSize: 30,
+          fontWeight: FontWeight.bold,
 
 
       ),
-      )
+
+
+
+      ),
+          centerTitle: true,
       ),
       body: ListView.builder(
         controller: _scrollController,
